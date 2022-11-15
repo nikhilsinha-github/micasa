@@ -1,28 +1,17 @@
+import React from 'react'
 import './App.css';
 import { Navbar } from './components/Navbar';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <div className="home">
-//         <header className="App-header">
-//           <Navbar/>
-//         </header>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default App;
-import React from 'react'
+import { Footer } from './components/Footer';
+import {Home} from './pages/Home'
 
 export const App = () => {
   return (
     <div className="App">
       <div className="home">
-        <header className="App-header">
           <Navbar/>
-        </header>
+          <div className="spacer"></div>
+          <Home/>
+          <Footer/>
       </div>
     </div>
   )
