@@ -1,4 +1,18 @@
 .featured-agents{
-    color: rgb(84,115,109);
     text-align: center;
+}
+
+.featured-agents h2{
+    color: rgb(84,115,109);
+}
+
+.featured-agents p{
+    padding-top: 10px;
+    color: rgb(106,101,103);
+}
+
+.agent-cards{
+    margin: 25px 0px;
+    display: flex;
+    justify-content: center;
 }

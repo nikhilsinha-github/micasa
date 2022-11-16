@@ -1,3 +1,51 @@
 .agent-card{
-    background-color: rgb(242,242,242);
+    margin: 20px 10px;
+    padding: 20px;
+    background-color: rgb(218, 218, 218);
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.agent-card .agent-image{
+    margin: 0;
+    border: none;
+    display: inline-block;
+}
+
+.agent-card .agent-image img{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    clip-path: circle();
+    height: 100px;
+    width: 100px;
+}
+
+.agent-card .agent-name{
+    margin: 0;
+    color: black;
+    font-weight: 700;
+}
+
+.agent-card .agent-designation{
+    color: rgb(119,115,116);
+    font-weight: 400;
+}
+
+.agent-card .agent-phone{
+    margin-top: 15px;
+    color: black;
+    font-weight: 600;
+}
+
+.agent-card .agent-email{
+    margin: 0;
+    color: rgb(84,115,109);
+    font-weight: 600;
 }
