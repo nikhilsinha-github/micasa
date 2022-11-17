@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/footer.css'
 import downloadAppsImage from '../assets/images/download_apps.png'
+import logo from '../assets/svg/logo.svg'
 
 export const Footer = () => {
   return (
@@ -14,7 +15,10 @@ export const Footer = () => {
           </div>
           <div className="quick-links">
               <div className="company-details">
-                <p className="company-name">Uday</p>
+                <div className="logo-and-name">
+                    <img src={logo} alt="" />
+                    <p className="company-name">Uday</p>
+                </div>
                 <p className="company-place">Dubai, UAE</p>
               </div>
               <div className="about">

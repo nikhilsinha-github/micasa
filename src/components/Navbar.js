@@ -11,6 +11,7 @@ import {AboutUs} from '../pages/AboutUs'
 import {Help} from '../pages/Help'
 import {SignUp} from '../pages/SignUp'
 import {NoPage} from '../pages/NoPage'
+import logo from '../assets/svg/logo.svg'
 
 
 export const Navbar = () => {
@@ -18,6 +19,7 @@ export const Navbar = () => {
     <section className="navbar">
       <div className="logo-and-menu">
         <div className="logo">
+          <img src={logo} alt="" />
           <h1 className="text-white">UDAY</h1>
         </div>
         <ul className="menu-expanded">

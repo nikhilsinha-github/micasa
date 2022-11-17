@@ -18,13 +18,26 @@ body{
 }
 
 .logo{
-    padding-top: 15px;
-    padding-left: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
     font-size: 2vmin;
+    display: flex;
+    vertical-align: middle;
+}
+
+.logo img{
+    margin-top: 0;
+    margin-right: 10px;
+    padding: 4px;
+    background-color: white;
+    height: 25px;
+    width: 25px;
+    clip-path: circle();
 }
   
 .text-white{
     color: white;
+    margin-top: 2px;
 }
 
 .menu-expanded{

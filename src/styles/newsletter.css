@@ -1,0 +1,61 @@
+.newsletter{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-left: 75px;
+    margin-bottom: 100px;
+}
+
+.newsletter img{
+    height: 200px;
+    width: 400px;
+}
+
+.newsletter .input-email{
+    position: absolute;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.subscribe{
+    margin-top: 140px;
+    margin-right: 125px;
+    color: rgb(139,138,138);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.our-newsletter{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 125px;
+    color: rgb(34,56,57);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.subscription-body{
+    margin-right: 175px;
+    color: rgb(139,138,138);
+    font-size: 14px;
+}
+
+.newsletter .input-email input[type=email]{
+    margin-top: 10px;
+    padding: 15px 10px;
+    width: 400px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 1px 2px 4px 2px rgb(237, 239, 244);
+}
+
+.newsletter .input-email input[type=submit]{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 160px;
+    padding: 16px 40px;
+    background-color: rgb(34,56,57);
+    color: white;
+    border-radius: 50px;
+    font-weight: 500;
+}
