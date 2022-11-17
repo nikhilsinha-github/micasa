@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.find-your-home{
+    margin-bottom: 100px;
+}
+
+.find-your-home .find-your-home-text{
+    position: absolute;
+    width: 25%;
+    font-size: 24px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.find-your-home-text h1{
+    color: rgb(84,115,109);
+    font-size: 3vmax;
+}
+
+.find-your-home-text p{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    color: rgb(139,138,138);
+    font-size: 1.2vmax;
+}
+
+.find-your-home .find-your-home-images{
+    margin-right: 100px;
+    text-align: right;
+    vertical-align: text-top;
+}
+
+.find-your-home .rent-or-buy{
+    padding: 0;
+    height: 200px;
+    width: 450px;
+    margin-right: 50px;
+    margin-bottom: 200px;
+}
+
+.find-your-home .home2{
+    margin: 0;
+    padding: 0;
+    height: 500px;
+    width: 500px;
+}
+
+input[type=submit]{
+    margin-left: 25px;
+    padding: 15px 25px;
+    background-color: rgb(215, 132, 106);
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.short-details{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.apartment{
+    margin: 20px 10px;
+    padding: 20px;
+    background-color: rgb(246,248,247);
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.apartment h1{
+    color: rgb(215, 132, 106);
+    font-size: 28px;
+}
+
+h2{
+    color: rgb(84,115,109);
+    font-size: 20px;
+}
+
+.video{
+    margin-top: 20px;
+    padding: 0;
+    height: 100px;
+    width: 150px;
+}
+
+.search-items{
+    background-color: white;
+}
