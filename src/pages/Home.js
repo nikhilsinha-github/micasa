@@ -10,9 +10,9 @@ export const Home = () => {
     <div>
         <FindYourHome/>
         <WhyChooseUs/>
+        <ExploreProperties/>
         <FeaturedAgents/>
         <NewsLetter/>
-        <ExploreProperties/>
     </div>
   )
 }

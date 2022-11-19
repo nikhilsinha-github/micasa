@@ -9,7 +9,6 @@ export const App = () => {
     <div className="App">
       <div className="home">
           <Navbar/>
-          <div className="spacer"></div>
           <Home/>
           <Footer/>
       </div>

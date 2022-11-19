@@ -11,7 +11,7 @@ export const Footer = () => {
                     <h1>Want To Become A Real Estate Agent ?</h1>
                     <p>We’ll help you to grow your career and growth.</p>
                 </div>
-                <button className="sign-up-today" type="submit">Sign Up Today</button>
+                <input type="submit" value="Sign Up Today" />
           </div>
           <div className="quick-links">
               <div className="company-details">

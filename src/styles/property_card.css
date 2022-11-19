@@ -1,0 +1,112 @@
+.property-card{
+    margin: 20px;
+    padding: 0px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 2px 4px 2px rgb(177, 177, 177);
+    position: relative;
+    box-sizing: border-box;
+}
+
+.image-and-type img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.image-and-type .type{ 
+    margin: 0px;
+    padding: 5px;
+    position: absolute;
+    right: 20px;
+    top: 40%;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+.image-and-type .type p{
+    margin: 0;
+    padding: 0;
+}
+
+.property-details{
+    margin: 0;
+    text-align: start;
+}
+
+.property-details .name-price{
+    margin: 0;
+    padding: 10px 10px 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.property-details .name-price p{
+    margin: 0;
+    padding: 0;
+}
+
+.rating{
+    margin: 0;
+    margin-left: 10px;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: start;
+}
+
+.rating p{
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+}
+
+.facilities{
+    display: flex;
+    justify-content: center;
+}
+
+.facilities .facility-box{
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.facilities .facility-box img{
+    margin: 0;
+    padding: 0;
+    height: 75%;
+    width: 20%;
+}
+
+.facilities .facility-box p{
+    margin: 0;
+    padding: 0;
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+.property-details hr.new1{
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgb(217,217,217);
+}
+
+.property-details .location{
+    margin: 0;
+    padding-left: 25px;
+    color: rgb(68, 68, 68);
+}
+
+.property-details .location p{
+    color: rgb(68, 68, 68);
+}

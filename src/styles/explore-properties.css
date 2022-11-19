@@ -1,3 +1,33 @@
 .explore-properties{
+    margin: 50px 0px;
     background-color: rgb(235,235,235);
+    text-align: center;
+}
+
+.explore-properties h2{
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.explore-properties p{
+    margin: 0px 320px;
+    padding: 20px 0px;
+}
+
+.properties{
+    margin: 10px 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.show-more input[type=submit]{
+    margin: 50px 0px;
+    padding: 15px 40px;
+    background-color:black;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
 }

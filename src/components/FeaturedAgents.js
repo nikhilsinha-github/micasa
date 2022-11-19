@@ -5,7 +5,7 @@ import {AgentCard} from './AgentCard'
 export const FeaturedAgents = () => {
   return (
     <div className="featured-agents">
-        <h2>Our Featured Agents</h2>
+        <h1>Our Featured Agents</h1>
         <p>Find new & featured property for you</p>
         <div className="agent-cards">
             <AgentCard/>

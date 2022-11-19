@@ -9,7 +9,7 @@ body{
 }
 
 .find-your-home{
-    margin-bottom: 100px;
+    padding: 100px 0px;
 }
 
 .find-your-home .find-your-home-text{
@@ -83,7 +83,7 @@ body{
     font-size: 28px;
 }
 
-h2{
+.apartment h2{
     color: rgb(84,115,109);
     font-size: 20px;
 }
