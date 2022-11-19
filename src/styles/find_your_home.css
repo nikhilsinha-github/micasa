@@ -53,12 +53,14 @@ body{
     width: 500px;
 }
 
-input[type=submit]{
+.find-your-home-text input[type=submit]{
     margin-left: 25px;
     padding: 15px 25px;
     background-color: rgb(215, 132, 106);
+    border: none;
     border-radius: 50px;
     font-weight: 700;
+    color: white;
 }
 
 .short-details{

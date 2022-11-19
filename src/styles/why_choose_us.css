@@ -1,0 +1,42 @@
+.why-choose-us{
+    margin: 0;
+    padding: 20px 40px;
+    display: flex;
+}
+
+.why-choose-us .left-side{
+    width: 50%;
+    padding: 20px 40px;
+}
+
+.why-choose-us h1{
+    color: rgb(84,115,109);
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.why-choose-us .answer{
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.person{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(237,241,240);
+    text-align: center;
+    border-radius: 15px;
+}
+
+.person img{
+    margin: 25px 20px;
+    padding: 40px 10px;
+    height: 300px;
+    width: 450px;
+}
+
+.right-side{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
