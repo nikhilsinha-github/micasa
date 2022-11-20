@@ -1,0 +1,26 @@
+.quick-link{
+    margin: 20px 100px;
+    padding: 0;
+}
+
+.quick-link .heading{
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.quick-link .links{
+    margin: 0;
+    padding: 0;
+}
+
+.quick-link .links ul{
+    margin: 0;
+    padding: 0;
+}
+
+.quick-link .links ul li{
+    color: #2A69DB;
+    font-size: 14px;
+    font-weight: 500;
+}
