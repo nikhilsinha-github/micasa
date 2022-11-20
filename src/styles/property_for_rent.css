@@ -1,0 +1,17 @@
+.property-for-rent{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.property-for-rent .ad{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100% ;
+    text-align: center;
+}
+
+.property-for-rent .ad img{
+    width: 90%;
+}

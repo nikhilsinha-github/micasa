@@ -1,0 +1,142 @@
+.search-rent{
+    margin: 0;
+    padding-top: 15px;
+    position: relative;
+}
+
+.search-rent img{
+    height: 100%;
+    width: 100%;
+}
+
+.search-rent .search-text-and-tools{
+    position: absolute;
+    margin-top: 16%;
+    justify-content: center;
+    width: 100%;
+}
+
+.search-rent .search-text-and-tools h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.search-text-and-tools .rent-categories{
+    display: flex;
+    justify-content: center;
+}
+
+.search-text-and-tools input[type=button]{
+    margin: 0px 20px;
+    padding: 20px;
+    background-color: rgb(87, 115, 108);
+    color: white;
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.search-bar{
+    margin: 0px 75px;
+    background-color: rgb(87, 115, 108);
+    border: none;
+    border-radius: 100px;
+}
+
+.search-bar .headings{
+    display: flex;
+}
+
+.headings{
+    margin-left: 20px;
+    padding: 10px 20px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.city{
+    padding: 10px 20px;
+    padding-bottom: 5px;
+}
+.location{
+    padding: 10px 32px;
+    padding-bottom: 5px;
+}
+.property-type{
+    padding: 10px 20px;
+    padding-left: 175px;
+    padding-bottom: 5px;
+}
+.price-range{
+    padding: 10px 20px;
+    padding-left: 70px;
+    padding-bottom: 5px;
+}
+.beds{
+    padding: 10px 20px;
+    padding-left: 80px;
+    padding-bottom: 5px;
+}
+
+.search-filters{
+    margin-left: 20px;
+    display: flex;
+}
+
+.search-filters .location-box{
+    margin: 0;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    padding: 0px 15px;
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    display: flex;
+}
+
+.search-filters .location-box .dropdown{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.search-filters .location-box .line{
+    height: 50px;
+    border: 1px solid #929292;
+}
+
+.search-filters .location-box input[type=text]{
+    border: none;
+    border-radius: 40px;
+    width: 200px;
+}
+
+.search-filters .type-box{
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+    background-color: white;
+    padding: 15px 10px;
+    width: 150px;
+    height: min-content;
+    border: none;
+    border-radius: 50px;
+}
+
+.search-filters input[type=button]{
+    margin: 0;
+    margin-left: 10px;
+    padding: 0px;
+    height: 50px;
+    width: 125px;
+    background-color: #E47F64;
+    border-radius: 50px;
+}
+
+.search-bar p{
+    margin: 0px 0px 0px 60px;
+    padding-bottom: 18px;
+    color: white;
+}
