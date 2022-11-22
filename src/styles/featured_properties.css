@@ -1,8 +1,38 @@
 .featured-properties{
-    margin: 0px 70px;
+    margin: 20px 75px;
     padding: 0;
 }
 
-.featured-properties h1{
+.featured-properties .heading{
+    margin-bottom: 25px;
+    font-size: 32px;
     font-weight: 400;
+}
+
+.featured-properties .property-list{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+}
+
+.featured-properties .property-list .toggle-buttons{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 28%;
+}
+
+.featured-properties .property-list .properties{
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }

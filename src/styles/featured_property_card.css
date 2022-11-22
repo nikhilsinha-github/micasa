@@ -1,0 +1,35 @@
+.featured-property-card{
+    margin: 0;
+    margin-right: 20px;
+    padding: 0;
+    width: 250px;
+}
+
+.featured-property-card img{
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    height: 200px;
+}
+
+.featured-property-card .price{
+    margin: 15px 0px;
+    margin-bottom: 5px;
+    color: #C11B26;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.featured-property-card .description{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.featured-property-card .name-of-property{
+    margin-top: 25px;
+    border: 1px solid #D9D9D9;
+}
+
+.featured-property-card .name-of-property .property-name{
+    margin: 10px 20px;
+}
