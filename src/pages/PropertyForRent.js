@@ -6,6 +6,7 @@ import {QuickLinks} from '../components/QuickLinks'
 import {FeaturedProperties} from '../components/FeaturedProperties'
 import {PopularCategories} from '../components/PopularCategories'
 import advertisement from '../assets/images/avertisement.png'
+import {PopularAreas} from '../components/PopularAreas'
 
 export const PropertyForRent = () => {
   return (
@@ -25,6 +26,7 @@ export const PropertyForRent = () => {
         </div>
       </div>
       <PopularCategories/>
+      <PopularAreas/>
       <FeaturedProperties/>
       <div className="quick-links">
         <QuickLinks/>

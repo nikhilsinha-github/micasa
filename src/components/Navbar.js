@@ -93,7 +93,13 @@ export const Navbar = () => {
                   smooth={true}>Add Property</NavLink>
               </li>
             </ul>
-            <button className="red-button" type="submit">Sign In</button>
+            <button className="red-button" type="submit">
+            <NavLink
+                to="/signup"
+                activeClass="active"
+                spy={true}
+                smooth={true}>Sign up</NavLink>
+              </button>
         </div>
         {/* <div className="menu-collapsed">
           <GrMenu />

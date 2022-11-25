@@ -1,0 +1,27 @@
+.popular-area-card{
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+}
+
+.popular-area-card img{
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    width: 250px;
+}
+
+.popular-area-card .details{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 4px;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+}
+
+.popular-area-card .details p{
+    margin: 0;
+    padding: 0;
+    width: 205px;
+}

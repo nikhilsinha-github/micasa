@@ -1,0 +1,145 @@
+.signup{
+    margin: 0;
+    padding: 20px 0px;
+    padding-top: 220px;
+    background-color: #d1d1d1;
+    position: relative;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.signup .logo-bg{
+    margin: 0;
+    padding: 0;
+}
+
+.signup .logo-bg img{
+    margin: 0;
+    height: 25vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.signup-card{
+    margin: 0;
+    padding: 40px 60px;
+    background-color: white;
+    justify-content: space-between;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+}
+
+.signup-card .dropdown-language{
+    margin: 10px;
+    width: max-content;
+}
+
+.signup-card .heading{
+    margin: 20px 0px;
+    color: #525252;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    justify-content: center;
+}
+
+.social-signup{
+    margin: 0;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-signup .google-signup{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #E8E8E8;
+    border-radius: 6px;
+    align-items: center;
+}
+
+.social-signup .google-signup .google-img{
+    margin: 0;
+    padding: 0 7px;
+    align-items: center;
+}
+
+.social-signup .google-signup .google-img img{
+    margin: 0;
+    padding: 0;
+}
+
+.social-signup .google-signup .text{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5px;
+}
+
+.social-signup .google-signup .text p{
+    margin: 0;
+    padding: 0;
+}
+
+.or{
+    width: 100%;
+    text-align: center;
+}
+
+.form{
+    margin: 0;
+    padding: 0;
+}
+
+.form input{
+    margin: 0;
+    padding: 0;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    outline: 0;
+    border-width: 2px;
+    border-color: #E47F64;
+}
+
+.form input[type=text]{
+    margin: 10px 0px;
+}
+
+.form input:focus{
+    border-color: #E47F64;
+}
+
+.form input[type=submit]{
+    margin: 40px 0;
+    padding: 15px 25px;
+    color: white;
+    background-color: #E47F64;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.form .already-have-account{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.form .already-have-account p{
+    margin: 0;
+    padding: 0;
+    color: #414141;
+}
+
+.form .already-have-account .login-text-btn{
+    margin: 0px 5px;
+    padding: 0;
+    color: #E47F64;
+}
