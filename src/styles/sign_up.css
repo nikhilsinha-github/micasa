@@ -1,10 +1,9 @@
 .signup{
     margin: 0;
     padding: 20px 0px;
-    padding-top: 220px;
+    height: 780px;
     background-color: #d1d1d1;
     position: relative;
-    height: 500px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -103,13 +102,13 @@
     display: block;
     box-sizing: border-box;
     width: 100%;
-    outline: 0;
-    border-width: 2px;
-    border-color: #E47F64;
 }
 
 .form input[type=text]{
-    margin: 10px 0px;
+    margin: 50px 0px;
+    border-width: 0 0 1px;
+    border-color: #E47F64;
+    border-radius: 0;
 }
 
 .form input:focus{
@@ -124,6 +123,7 @@
     border: none;
     border-radius: 6px;
     width: 100%;
+    font-weight: 700;
 }
 
 .form .already-have-account{
@@ -140,6 +140,7 @@
 
 .form .already-have-account .login-text-btn{
     margin: 0px 5px;
+    margin-top: 2px;
     padding: 0;
     color: #E47F64;
 }

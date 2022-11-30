@@ -1,0 +1,135 @@
+.login{
+    margin: 0;
+    padding: 20px 0px;
+    background-color: #d1d1d1;
+    position: relative;
+    height: 780px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.login .logo-bg{
+    margin: 0;
+    padding: 0;
+}
+
+.login .logo-bg img{
+    margin: 0;
+    height: 25vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.login-card{
+    margin: 0;
+    padding: 40px 60px;
+    width: 32vw;
+    background-color: white;
+    justify-content: space-between;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    text-align: start;
+}
+
+.login-card .dropdown-language{
+    margin: 10px;
+    width: max-content;
+}
+
+.login-card .heading{
+    margin: 5px 0px;
+    margin-top: 40px;
+    color: #525252;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    justify-content: start;
+}
+
+.form{
+    margin: 0;
+    margin-top: 40px;
+    padding: 0;
+}
+
+.form input{
+    margin: 10px 0;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    outline: 0;
+    border: 1px solid #E47F64;
+    border-radius: 4px;
+}
+
+.form input:focus{
+    border-color: #E47F64;
+}
+
+.form input[type=submit]{
+    margin: 20px 0;
+    padding: 15px 25px;
+    color: white;
+    background-color: #E47F64;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    font-weight: 700;
+}
+
+.form .already-have-account .login-text-btn{
+    margin: 0px 5px;
+    margin-top: 2px;
+    padding: 0;
+    color: #E47F64;
+}
+
+.form .remember-me-and-forgot-password{
+    margin: 40px 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form .remember-me-and-forgot-password .remember-me{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.form .remember-me-and-forgot-password .remember-me-checkbox{
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    display: flex;
+}
+
+.form .remember-me-and-forgot-password .remember-me-label{
+    margin: 0;
+    padding: 0;
+}
+
+.or-continue{
+    margin: 40px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.social-login{
+    margin: 0;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-login img{
+    margin: 0;
+    padding: 16px;
+    border: 1px solid #EBE9F1;
+    border-radius: 6px;
+}

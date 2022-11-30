@@ -13,6 +13,7 @@ import { Help } from '../pages/Help'
 import { SignUp } from '../pages/SignUp'
 import { NoPage } from '../pages/NoPage'
 import { Routes, Route } from "react-router-dom"
+import { Login } from '../pages/Login';
 
 
 export const Navbar = () => {
@@ -22,7 +23,7 @@ export const Navbar = () => {
         <div className="logo-and-menu">
           <div className="logo">
             <img src={logo} alt="" />
-            <h1 className="text-white">UDAY</h1>
+            <h1 className="text-white">MICASA</h1>
           </div>
           <ul className="menu-expanded">
             <li>
@@ -114,6 +115,7 @@ export const Navbar = () => {
         <Route path="/aboutus" element={<AboutUs/>} />
         <Route path="/help" element={<Help/>} />
         <Route path="/signup" element={<SignUp/>} />
+        <Route path="/login" element={<Login/>} />
         <Route path="*" element={<NoPage/>} />
       </Routes>
     </>

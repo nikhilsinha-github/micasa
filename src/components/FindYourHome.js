@@ -9,8 +9,8 @@ export const FindYourHome = () => {
     <div className="landing-screen">
         <div className="find-your-home">
             <div className="find-your-home-text">
-                <h1>Find your home that suits you.</h1>
-                <p>We provide a complete service for the sale, purchase or rental of real estate</p>
+                <h1>World's first Ai based property rental.</h1>
+                <p>Let the robot save all the property rental hassle for you.</p>
                 <input type="submit" value="watch Apartments" />
                 <div className="short-details">
                     <div className="apartment">
