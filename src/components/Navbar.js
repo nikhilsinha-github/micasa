@@ -14,6 +14,7 @@ import { SignUp } from '../pages/SignUp'
 import { NoPage } from '../pages/NoPage'
 import { Routes, Route } from "react-router-dom"
 import { Login } from '../pages/Login';
+import { ProductDetails } from '../pages/ProductDetails';
 
 
 export const Navbar = () => {
@@ -116,6 +117,7 @@ export const Navbar = () => {
         <Route path="/help" element={<Help/>} />
         <Route path="/signup" element={<SignUp/>} />
         <Route path="/login" element={<Login/>} />
+        <Route path="/propertydetails" element={<ProductDetails/>} />
         <Route path="*" element={<NoPage/>} />
       </Routes>
     </>

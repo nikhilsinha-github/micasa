@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #1836B2;
+  --border-color: #D1D1D1;
+
+}
+
 body {
   margin: 0;
   font-family: 'Inter';

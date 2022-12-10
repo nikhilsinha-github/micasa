@@ -1,0 +1,132 @@
+.contactus{
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.contactus .contactus-forms{
+    margin-top: 150px;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+}
+
+.contactus .contactus-forms h2{
+    color: white;
+    font-weight: 400;
+}
+
+.contactus-forms input[type=search]{
+    margin: 25px 0px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 4px;
+    width: 40vw;
+}
+
+.form-and-articles{
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.form-and-articles .contactus-form{
+    padding: 20px;
+    background-color: rgba(0,0,0,0.58);
+    color: white;
+    width: 50vw;
+    border: none;
+    border-radius: 6px;
+    text-align: start;
+}
+
+.contactus-form .form-description{
+    margin-bottom: 40px;
+}
+
+.contactus-form label{
+    margin: 0;
+    padding: 0;
+}
+
+span{
+    margin: 10px 0px;
+    padding: 0;
+    color: red;
+}
+
+.contactus-form input[type=text]{
+    margin: 10px 0px;
+    padding: 10px;
+    display: block;
+    border: none;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 4px;
+}
+
+#description{
+    margin: 10px 0px;
+    padding: 10px;
+    display: block;
+    border: none;
+    box-sizing: border-box;
+    height: 150px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.contactus-form input[type=submit]{
+    margin: 20px 0;
+    padding: 15px 25px;
+    color: white;
+    background-color: #E47F64;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    font-weight: 700;
+}
+
+.article{
+    margin: 0px 20px;
+    padding: 0;
+    border: 0.5px solid rgba(0,0,0,0.58);
+    border-radius: 6px;
+    width: 20vw;
+    background-color: rgba(0,0,0,0.58);
+}
+
+.article .trending-articles-heading{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.article .trending-articles-heading p{
+    margin: 0;
+    padding: 25px;
+    background-color:white;
+    border: none;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.trending-articles ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.trending-articles ul li{
+    margin: 20px 10px;
+    padding: 0;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.contactus img{
+    height: 150vh;
+    width: 100vw;
+}

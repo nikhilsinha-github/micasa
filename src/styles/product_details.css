@@ -1,0 +1,273 @@
+.product-details{
+    margin: 0;
+    padding: 120px 50px;
+}
+
+.product-details .breadcrump{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-details .detailed-images-and-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-details .detailed-images-and-details img{
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    height: 500px;
+    width: 60vw;
+}
+
+.product-details .company-details{
+    margin: 0;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    justify-content: center;
+    border: 1px #D1D1D1 solid;
+    border-radius: 16px;
+    width: 40vw;
+    text-align: center;
+}
+
+.product-details .company-details img{
+    height: 150px;
+    width: 150px;
+}
+
+.product-details .company-details hr{
+    color: #D1D1D1;
+}
+
+.product-details .company-details .number-details{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+}
+
+.product-details .company-details .number-details p{
+    padding: 10px 0px;
+}
+
+.product-details .company-details .book-chat-buttons{
+    margin: 15px 0px;
+    margin-top: 25px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.product-details .company-details .book-chat-buttons button{
+    margin: 10px 0px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+}
+
+.product-details .company-details .book-chat-buttons .book-button{
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 9px;
+}
+
+.product-details .company-details .book-chat-buttons .chat-button{
+    padding: 10px;
+    color: #1836B2;
+    background-color: white;
+    border: 1px solid var(--primary-color);
+    border-radius: 9px;
+}
+
+.property-further-details{
+    width: 100%;
+    display: flex;
+}
+
+.property-further-details .further-details-left{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.property-further-details .further-details-left .room-images{
+    margin: 0;
+    padding: 0;
+}
+
+.property-further-details .further-details-left img{
+    margin: 10px;
+    padding: 0;
+    height: 75px;
+    width: 75px;
+    border-radius: 6px;
+}
+
+.property-further-details .further-details-left .price{
+    margin-top: 20px;
+    color: var(--primary-color);
+}
+
+.property-further-details .further-details-left .price span{
+    color: var(--primary-color);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.further-details-left .amenities{
+    margin: 10px 0px;
+    display: flex;
+}
+
+.further-details-left .amenities img{
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    width: 25px;
+}
+
+.further-details-left .amenities p{
+    margin: 0 5px;
+    margin-right: 15px;
+    padding: 0;
+}
+
+.further-details-left .location{
+    margin: 15px 0px;
+    padding: 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.further-details-left .location img{
+    margin: 0;
+    padding: 0;
+    height: 25px;
+    width: 20px;
+}
+
+.further-details-left .property-name-type{
+    margin: 15px 0px;
+    color: var(--primary-color);
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.further-details-left .description-in-details{
+    margin-bottom: 25px;
+}
+
+.further-details-left .description-in-details .details-heading{
+    margin-bottom: 10px;
+}
+
+.hide-description{
+    margin: 20px 0px;
+    color: #FF0000;
+}
+
+.further-details-left .amenities-text{
+    margin: 0;
+    padding: 0;
+}
+
+.further-details-left .further-details-heading{
+    margin: 25px 0px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.further-details-subheading{
+    margin: 10px 25px;
+    color: red;
+    font-weight: 500;
+}
+
+.further-details-left .amenities-text .amenities-tiles{
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.further-details-left .amenities-text .amenities-tile{
+    margin: 0px;
+    margin-right: 10vw;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.further-details-left .amenities-text .amenities-tile img{
+    margin: 0;
+    padding: 0;
+    height: 10px;
+    width: 25px;
+}
+
+.property-info{
+    margin: 10px 0px;
+}
+
+.property-info-box{
+    margin-bottom: 25px;
+    padding: 10px 25px;
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+}
+
+/* .info-box-data{} */
+
+.key-value{
+    margin: 20px 0px;
+    display: flex;
+}
+
+.info-box-value{
+    margin-left: 20vw;
+}
+
+.further-details-left .map{
+    height: 70vh;
+    width: 100%;
+}
+
+.further-details-right{
+    margin: 0;
+    margin-left: 25px;
+    padding: 0;
+    width: 50vw;
+}
+
+.further-details-right hr{
+    margin: 25px 30px;
+}
+
+.further-details-right .map-box{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80vh;
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+}
+
+.further-details-right .know-your-rights-box{
+    margin: 0;
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 16px;   
+}
+
+.know-your-rights-box .heading{
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 500;
+}
